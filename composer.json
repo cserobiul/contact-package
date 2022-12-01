@@ -20,5 +20,12 @@
         "psr-4": {
             "Cserobiul\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cserobiul\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
