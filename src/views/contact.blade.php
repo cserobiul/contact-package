@@ -11,9 +11,9 @@
     <h1>Contact us any time</h1>
     <form action="{{ route('contact') }}" method="post">
         @csrf
-        <input type="text" name="name" placeholder="e.g: robiul islam"> <br> <br>
-        <input type="email" name="email" placeholder="e.g: robiulislam@gmail.com"> <br> <br>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message"></textarea> <br> <br>
+        Name: <input type="text" name="name" placeholder="e.g: robiul islam"> <br> <br>
+        Email: <input type="email" name="email" placeholder="e.g: robiulislam@gmail.com"> <br> <br>
+        Message: <textarea name="message" id="" cols="30" rows="10" placeholder="Type your message"></textarea> <br> <br>
         <button type="submit">Send Mail</button>
     </form>
 </body>
