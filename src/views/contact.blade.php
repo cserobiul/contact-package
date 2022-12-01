@@ -20,15 +20,15 @@
                 @csrf
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="name" class="form-control" id="name" placeholder="e.g: robiul islam">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="e.g: robiul islam">
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="dev@apol.com.bd">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="dev@apol.com.bd">
                 </div>
                 <div class="form-group">
                     <label for="message">Messages</label>
-                    <textarea class="form-control" id="message" rows="3"></textarea>
+                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send Email</button>
             </form>
