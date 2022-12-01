@@ -1,0 +1,24 @@
+{
+    "name": "cserobiul/contact",
+    "description": "This will send email to admin and store contact in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cserobiul\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cserobiul",
+            "email": "abishar14@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cserobiul\\Contact\\": "src/"
+        }
+    }
+}
